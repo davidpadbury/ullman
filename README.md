@@ -10,9 +10,11 @@ Messaging Framework for Google Cloud PubSub.
 import ullman from 'ullman'
 
 const pubsub = ullman({
-  projectName: 'profile-name',
+  projectId: 'profile-name',
   keyFilename: 'path-to-key'
 })
+
+await pubsub.createTopic('topic-name')
 
 const unsubscribe = pubsub.subcribe('test-subscription', async message => console.log(message))
 
@@ -31,7 +33,7 @@ const pubsub = ullman({
     deserialize: JSON.parse
   }
   gcloud: {
-    projectName: 'profile-name',
+    projectId: 'profile-name',
     keyFilename: 'path-to-key'
   }
 })
