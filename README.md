@@ -1,5 +1,7 @@
 # Ullman
 
+[![Codeship Status for davidpadbury/ullman](https://codeship.com/projects/29ea91e0-a511-0133-754a-7ac2b0a34bb8/status?branch=master)](https://codeship.com/projects/129507)
+
 Promise based Node.js Messaging Framework for Google Cloud PubSub.
 
 :warning: Ullman is a work in progress and shouldn't yet be used.
