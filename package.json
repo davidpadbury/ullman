@@ -2,6 +2,7 @@
   "name": "ullman",
   "version": "0.0.1",
   "description": "Messaging framework for Google PubSub",
+  "repository": "davidpadbury/ullman",
   "main": "lib/index.js",
   "scripts": {
     "check": "npm prune && npm install && npm run lint && npm run test",
