@@ -1,6 +1,8 @@
 # Ullman
 
-Messaging Framework for Google Cloud PubSub.
+Promise based Node.js Messaging Framework for Google Cloud PubSub.
+
+:warning: Ullman is a work in progress and shouldn't yet be used.
 
 ## API
 
