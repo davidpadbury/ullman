@@ -7,6 +7,11 @@ Promise based Node.js Messaging Framework for Google Cloud PubSub.
 
 :warning: Ullman is a work in progress and shouldn't yet be used.
 
+## Features
+* [ ] Retry failing messages with customizable backoff
+* [ ] Standard message attributes in published messages (timestamp)
+* [ ] Flow ids for tracing a series of messages
+
 ## API
 
 ### Simple Usage
